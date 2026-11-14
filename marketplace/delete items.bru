@@ -1,0 +1,23 @@
+meta {
+  name: delete items
+  type: http
+  seq: 8
+}
+
+delete {
+  url: https://api.kitek-pg.ru/api/marketplace/items/1794637067804
+  body: none
+  auth: bearer
+}
+
+auth:bearer {
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjE3OTQ2MzYzNzk0NTgsInVzZXJuYW1lIjoidGVzdGd1eSIsImlhdCI6MTc5NDYzNjUwMSwiZXhwIjoxNzk0NzIyOTAxfQ.5TGRxgAnvczlvrdFI1bfQIYlY_r6rkwVvCZXapU4EIk
+}
+
+body:json {
+  {
+    "title": "Рандомный товар",
+    "description": "Кранты ему кароч",
+    "price": 1
+  }
+}
